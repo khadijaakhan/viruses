@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viruses</title>
+    <link rel="icon" href="src/img/Virus (300 × 250 px).png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/360da92da4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="body">
+    <div class="container background pb-3">
+      <h1 class="text-center p-5 heading">Virusology</h1>
+
+      <nav class="navbar navbar-expand-xl navbar-dark sticky-top mb-5">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand"
+            ><img
+              class="w-75"
+              src="src/img/Virus__2_-removebg-preview.png"
+              alt=""
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-evenly"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link ms-4 animate__animated animate__backInDown"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li
+                class="nav-item ms-4 dropdown animate__animated animate__backInUp"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Viruses
+                </a>
+                <ul
+                  class="dropdown-menu ms-4 text-center animate__animated animate__backInDown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="dengue.html">Dengue</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="malaria.html">Malaria</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="influenza.html">Influenza</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="coronavirus.html"
+                      >CoronaVirus</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link ms-4 animate__animated animate__backInDown"
+                  href="listing.html"
+                  >Year wise listing</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link ms-4 animate__animated animate__backInDown"
+                  href="aboutUs.html"
+                  >AboutUs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active ms-4 animate__animated animate__backInDown"
+                  href="feedback.html"
+                  >Feedback</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ==================================== -->
+      <!-- =================================================Feedback Form========================================== -->
+
+      <div
+        class="container background feedback-form animate__animated animate__backInDown"
+      >
+        <section id="section">
+          <form action="index.html">
+          <div class="form-box">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <h2>
+                    SEND US A <br />
+                    MESSAGE <i class="fa-solid fa-virus-covid fa-xs"></i>
+                  </h2>
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div
+                  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"
+                >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First name*"
+                    aria-label="First name"
+                    required
+                    minlength="3"
+                  />
+                </div>
+                <div
+                  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"
+                >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name*"
+                    aria-label="Last name"
+                    required
+                    minlength="3"
+                  />
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div
+                  class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                >
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="E-mail address*"
+                    aria-label="E-mail address"
+                    required
+                  />
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div
+                  class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+                >
+                  <textarea
+                    class="form-control"
+                    placeholder="Your Message"
+                    id="floatingTextarea2"
+                    style="height: 100px"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="btn-box">
+                <button type="submit" class="btn btn-secondary">
+                  SEND TO US <i class="fa-solid fa-paper-plane fa-xs"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          </form>
+
+          <div class="f-box-2">
+            <div class="container">
+              <div class="contact-info">
+                <h2>
+                  CONTACT <br />
+                  INFORMATION
+                </h2>
+                <ul class="info">
+                  <li>
+                    <span>
+                      Our office is located in the beautiful building inside the
+                      busiest and fast-growing city</span
+                    >
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <span>+021 789456123</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <span>Loremipsum@gmail.com</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <span>21A Lorem str, District 1, ABC, Karachi.</span>
+                  </li>
+                </ul>
+                <div class="map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28943.167576205182!2d67.0470096!3d24.9356144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1668238743733!5m2!1sen!2s"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="footer-basic mt-md-5">
+        <footer>
+          <div class="social">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a
+            ><a href="https://www.snapchat.com/" target="_blank"><i class="fa-brands fa-snapchat"></i></a
+            ><a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a
+            ><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <ul class="list-inline text-center">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="aboutUs.html">About</a></li>
+            <li class="list-inline-item"><a href="terms.html" target="_blank">Terms</a></li>
+            <li class="list-inline-item"><a href="privacypolicy.html" target="_blank">Privacy Policy</a></li>
+          </ul>
+          <p class="copyright">Virusology © 2022 powered by Vertex systems</p>
+        </footer>
+      </div>
+    </div>
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
